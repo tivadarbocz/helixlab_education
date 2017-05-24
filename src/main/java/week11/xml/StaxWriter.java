@@ -28,10 +28,6 @@ public class StaxWriter {
         eventWriter.add(startDocument);
 
         // create config open tag
-        for (int i = 0; i < 10; ++i) {
-
-        }
-
         StartElement configStartElement = eventFactory.createStartElement("",
                 "", "config");
         eventWriter.add(end);
